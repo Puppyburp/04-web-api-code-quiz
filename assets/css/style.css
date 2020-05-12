@@ -1,0 +1,32 @@
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+/* global styling */
+* {
+  font-family: 'Jost', sans-serif;
+  margin: auto;
+}
+
+/* basic styling */
+
+
+
+/* main section */
+
+.btn-primary {
+  display: block!important;
+  margin: .5em auto;
+}
+
+#question {
+  padding: .5em;
+  font-weight: bold;
+}
+
+#result-message {
+  padding: .5em;
+}
+
+.hide {
+  display: none;
+}

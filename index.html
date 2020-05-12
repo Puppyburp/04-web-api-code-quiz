@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Code Quiz</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- custom css -->
+      <link rel="stylesheet" href="style.css">
+    <!-- bootstrap link -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head> 
+<body>
+  <header class="header"> <!-- header section -->
+    <div class="row p-2">
+      <div class="col-sm justify-content-start">
+        <h5 id="highscore">View Highscore</h5>
+      </div> 
+      <div class="col-sm justify-content-end">
+        <h5 id="time">Time:</h5>
+      </div> 
+    </div>
+  </header>
+  <!-- start page -->
+  <div class="container-fluid">
+    <!-- main section -->
+    <main class="main"> 
+      <div class="first-question-section">
+      <div class="row">
+        <h1 id="intro-h1"></h1>
+        <p id="intro-para"></p>
+        <div id="start-button" class="button"></div>
+      </div>
+      </div>
+  <!-- question 1 -->
+      <div class="row">
+        <div class="question-one-contain">
+        <div class="col-sm-12">
+          <h2 id="question-one" class="w-50"></h2>
+        </div> 
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12"> 
+          <!-- buttons -->
+          <div id="q1button-1" class="button"></div>
+          <div id="q1button-2" class="button"></div>
+          <div id="q1button-3" class="button"></div>
+          <div id="q1button-4" class="button"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <h5 id="result-message"></h5>
+        </div> 
+      </div>
+      <!-- question 2 -->
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 id="question-two"></h2>
+        </div> 
+      </div>
+      <div class="row">
+        <div class="col-sm-12"> 
+          <!-- buttons -->
+          <div id="button-1" class="button"></div>
+          <div id="button-2" class="button"></div>
+          <div id="button-3" class="button"></div>
+          <div id="button-4" class="button"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <h5 id="result-message"></h5>
+        </div> 
+      </div>
+
+    </main>
+  </div> <!-- end container div -->
+
+   <!-- jQuery CDN -->
+   <script src="javascript.js"></script>
+ 
+    <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
