@@ -9,24 +9,66 @@
 
 /* basic styling */
 
+#highscore {
+  text-align: left;
+}
 
+#highscore-result {
+  text-align: center;
 
-/* main section */
+}
+
+#time {
+  text-align: right;
+}
+
+#intro-h1, #result-h2 {
+  text-align: center;
+  padding-top: .5em;
+  font-weight: bold;
+}
+
+#intro-para {
+  text-align: center; 
+  margin: 1em auto;
+  font-size: 1.2em;
+}
+
+.first-page-section {
+  padding: 1em;
+}
 
 .btn-primary {
   display: block!important;
   margin: .5em auto;
+  text-align: center; 
 }
 
-#question {
-  padding: .5em;
+#start-button {
+  display: block!important;
+  margin: auto;
+}
+
+#question-one, #question-two {
+  text-align: center; 
+  padding: .5em; 
   font-weight: bold;
 }
 
-#result-message {
-  padding: .5em;
+#result-message-one, #result-message-two {
+  padding: 1em;
+  text-align: center;
 }
+
+#result-p {
+  text-align: center;
+}
+
 
 .hide {
   display: none;
+}
+
+.show {
+  display: contents;
 }
